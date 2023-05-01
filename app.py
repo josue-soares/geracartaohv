@@ -15,7 +15,7 @@ def cartao_de_visita():
     telefone = request.form['telefone']
 
     # Carrega a imagem
-    img = Image.open("/home/apollo/meu-python/flask5/cartao_de_visita.png")
+    img = Image.open("cartao_de_visita.png")
 
     # Define a fonte e o tamanho do texto
     fonte = ImageFont.truetype("arial.ttf", 24)
